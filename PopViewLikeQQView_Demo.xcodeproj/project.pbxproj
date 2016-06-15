@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B2B35B1D118C9700989D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B35A1D118C9700989D38 /* main.m */; };
+		84B2B35E1D118C9700989D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B35D1D118C9700989D38 /* AppDelegate.m */; };
+		84B2B3611D118C9700989D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B3601D118C9700989D38 /* ViewController.m */; };
+		84B2B3641D118C9700989D38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3621D118C9700989D38 /* Main.storyboard */; };
+		84B2B3661D118C9700989D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3651D118C9700989D38 /* Assets.xcassets */; };
+		84B2B3691D118C9700989D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3671D118C9700989D38 /* LaunchScreen.storyboard */; };
+		84B2B3741D118C9800989D38 /* PopViewLikeQQView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B3731D118C9800989D38 /* PopViewLikeQQView_DemoTests.m */; };
+		84B2B37F1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B37E1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.m */; };
+		84B2B38E1D118CB700989D38 /* PopViewLikeQQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B38D1D118CB700989D38 /* PopViewLikeQQView.m */; };
+		84B2B3961D118DCB00989D38 /* item_battle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3901D118DCB00989D38 /* item_battle@2x.png */; };
+		84B2B3971D118DCB00989D38 /* item_chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3911D118DCB00989D38 /* item_chat@2x.png */; };
+		84B2B3981D118DCB00989D38 /* item_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3921D118DCB00989D38 /* item_list@2x.png */; };
+		84B2B3991D118DCB00989D38 /* item_school@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3931D118DCB00989D38 /* item_school@2x.png */; };
+		84B2B39A1D118DCB00989D38 /* item_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3941D118DCB00989D38 /* item_share@2x.png */; };
+		84B2B39B1D118DCB00989D38 /* schoolListItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B3951D118DCB00989D38 /* schoolListItem@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B2B3701D118C9700989D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B2B34E1D118C9700989D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B2B3551D118C9700989D38;
+			remoteInfo = PopViewLikeQQView_Demo;
+		};
+		84B2B37B1D118C9800989D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B2B34E1D118C9700989D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B2B3551D118C9700989D38;
+			remoteInfo = PopViewLikeQQView_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B2B3561D118C9700989D38 /* PopViewLikeQQView_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopViewLikeQQView_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2B35A1D118C9700989D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B2B35C1D118C9700989D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B2B35D1D118C9700989D38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B2B35F1D118C9700989D38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84B2B3601D118C9700989D38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84B2B3631D118C9700989D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B2B3651D118C9700989D38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B2B3681D118C9700989D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B2B36A1D118C9700989D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B2B36F1D118C9700989D38 /* PopViewLikeQQView_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopViewLikeQQView_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2B3731D118C9800989D38 /* PopViewLikeQQView_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewLikeQQView_DemoTests.m; sourceTree = "<group>"; };
+		84B2B3751D118C9800989D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B2B37A1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopViewLikeQQView_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2B37E1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewLikeQQView_DemoUITests.m; sourceTree = "<group>"; };
+		84B2B3801D118C9800989D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B2B38C1D118CB700989D38 /* PopViewLikeQQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewLikeQQView.h; sourceTree = "<group>"; };
+		84B2B38D1D118CB700989D38 /* PopViewLikeQQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewLikeQQView.m; sourceTree = "<group>"; };
+		84B2B3901D118DCB00989D38 /* item_battle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_battle@2x.png"; sourceTree = "<group>"; };
+		84B2B3911D118DCB00989D38 /* item_chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_chat@2x.png"; sourceTree = "<group>"; };
+		84B2B3921D118DCB00989D38 /* item_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_list@2x.png"; sourceTree = "<group>"; };
+		84B2B3931D118DCB00989D38 /* item_school@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_school@2x.png"; sourceTree = "<group>"; };
+		84B2B3941D118DCB00989D38 /* item_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_share@2x.png"; sourceTree = "<group>"; };
+		84B2B3951D118DCB00989D38 /* schoolListItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schoolListItem@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B2B3531D118C9700989D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B36C1D118C9700989D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B3771D118C9800989D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B2B34D1D118C9700989D38 = {
+			isa = PBXGroup;
+			children = (
+				84B2B3581D118C9700989D38 /* PopViewLikeQQView_Demo */,
+				84B2B3721D118C9800989D38 /* PopViewLikeQQView_DemoTests */,
+				84B2B37D1D118C9800989D38 /* PopViewLikeQQView_DemoUITests */,
+				84B2B3571D118C9700989D38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B2B3571D118C9700989D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B3561D118C9700989D38 /* PopViewLikeQQView_Demo.app */,
+				84B2B36F1D118C9700989D38 /* PopViewLikeQQView_DemoTests.xctest */,
+				84B2B37A1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B2B3581D118C9700989D38 /* PopViewLikeQQView_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B35C1D118C9700989D38 /* AppDelegate.h */,
+				84B2B35D1D118C9700989D38 /* AppDelegate.m */,
+				84B2B35F1D118C9700989D38 /* ViewController.h */,
+				84B2B3601D118C9700989D38 /* ViewController.m */,
+				84B2B38F1D118DCB00989D38 /* image */,
+				84B2B38C1D118CB700989D38 /* PopViewLikeQQView.h */,
+				84B2B38D1D118CB700989D38 /* PopViewLikeQQView.m */,
+				84B2B3621D118C9700989D38 /* Main.storyboard */,
+				84B2B3651D118C9700989D38 /* Assets.xcassets */,
+				84B2B3671D118C9700989D38 /* LaunchScreen.storyboard */,
+				84B2B36A1D118C9700989D38 /* Info.plist */,
+				84B2B3591D118C9700989D38 /* Supporting Files */,
+			);
+			path = PopViewLikeQQView_Demo;
+			sourceTree = "<group>";
+		};
+		84B2B3591D118C9700989D38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B35A1D118C9700989D38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B2B3721D118C9800989D38 /* PopViewLikeQQView_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B3731D118C9800989D38 /* PopViewLikeQQView_DemoTests.m */,
+				84B2B3751D118C9800989D38 /* Info.plist */,
+			);
+			path = PopViewLikeQQView_DemoTests;
+			sourceTree = "<group>";
+		};
+		84B2B37D1D118C9800989D38 /* PopViewLikeQQView_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B37E1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.m */,
+				84B2B3801D118C9800989D38 /* Info.plist */,
+			);
+			path = PopViewLikeQQView_DemoUITests;
+			sourceTree = "<group>";
+		};
+		84B2B38F1D118DCB00989D38 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B3901D118DCB00989D38 /* item_battle@2x.png */,
+				84B2B3911D118DCB00989D38 /* item_chat@2x.png */,
+				84B2B3921D118DCB00989D38 /* item_list@2x.png */,
+				84B2B3931D118DCB00989D38 /* item_school@2x.png */,
+				84B2B3941D118DCB00989D38 /* item_share@2x.png */,
+				84B2B3951D118DCB00989D38 /* schoolListItem@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B2B3551D118C9700989D38 /* PopViewLikeQQView_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B2B3831D118C9800989D38 /* Build configuration list for PBXNativeTarget "PopViewLikeQQView_Demo" */;
+			buildPhases = (
+				84B2B3521D118C9700989D38 /* Sources */,
+				84B2B3531D118C9700989D38 /* Frameworks */,
+				84B2B3541D118C9700989D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopViewLikeQQView_Demo;
+			productName = PopViewLikeQQView_Demo;
+			productReference = 84B2B3561D118C9700989D38 /* PopViewLikeQQView_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B2B36E1D118C9700989D38 /* PopViewLikeQQView_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B2B3861D118C9800989D38 /* Build configuration list for PBXNativeTarget "PopViewLikeQQView_DemoTests" */;
+			buildPhases = (
+				84B2B36B1D118C9700989D38 /* Sources */,
+				84B2B36C1D118C9700989D38 /* Frameworks */,
+				84B2B36D1D118C9700989D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B2B3711D118C9700989D38 /* PBXTargetDependency */,
+			);
+			name = PopViewLikeQQView_DemoTests;
+			productName = PopViewLikeQQView_DemoTests;
+			productReference = 84B2B36F1D118C9700989D38 /* PopViewLikeQQView_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B2B3791D118C9800989D38 /* PopViewLikeQQView_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B2B3891D118C9800989D38 /* Build configuration list for PBXNativeTarget "PopViewLikeQQView_DemoUITests" */;
+			buildPhases = (
+				84B2B3761D118C9800989D38 /* Sources */,
+				84B2B3771D118C9800989D38 /* Frameworks */,
+				84B2B3781D118C9800989D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B2B37C1D118C9800989D38 /* PBXTargetDependency */,
+			);
+			name = PopViewLikeQQView_DemoUITests;
+			productName = PopViewLikeQQView_DemoUITests;
+			productReference = 84B2B37A1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B2B34E1D118C9700989D38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					84B2B3551D118C9700989D38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+					};
+					84B2B36E1D118C9700989D38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84B2B3551D118C9700989D38;
+					};
+					84B2B3791D118C9800989D38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 84B2B3551D118C9700989D38;
+					};
+				};
+			};
+			buildConfigurationList = 84B2B3511D118C9700989D38 /* Build configuration list for PBXProject "PopViewLikeQQView_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B2B34D1D118C9700989D38;
+			productRefGroup = 84B2B3571D118C9700989D38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B2B3551D118C9700989D38 /* PopViewLikeQQView_Demo */,
+				84B2B36E1D118C9700989D38 /* PopViewLikeQQView_DemoTests */,
+				84B2B3791D118C9800989D38 /* PopViewLikeQQView_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B2B3541D118C9700989D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B3691D118C9700989D38 /* LaunchScreen.storyboard in Resources */,
+				84B2B3961D118DCB00989D38 /* item_battle@2x.png in Resources */,
+				84B2B3971D118DCB00989D38 /* item_chat@2x.png in Resources */,
+				84B2B3991D118DCB00989D38 /* item_school@2x.png in Resources */,
+				84B2B3981D118DCB00989D38 /* item_list@2x.png in Resources */,
+				84B2B3661D118C9700989D38 /* Assets.xcassets in Resources */,
+				84B2B3641D118C9700989D38 /* Main.storyboard in Resources */,
+				84B2B39A1D118DCB00989D38 /* item_share@2x.png in Resources */,
+				84B2B39B1D118DCB00989D38 /* schoolListItem@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B36D1D118C9700989D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B3781D118C9800989D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B2B3521D118C9700989D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B3611D118C9700989D38 /* ViewController.m in Sources */,
+				84B2B35E1D118C9700989D38 /* AppDelegate.m in Sources */,
+				84B2B38E1D118CB700989D38 /* PopViewLikeQQView.m in Sources */,
+				84B2B35B1D118C9700989D38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B36B1D118C9700989D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B3741D118C9800989D38 /* PopViewLikeQQView_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2B3761D118C9800989D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B37F1D118C9800989D38 /* PopViewLikeQQView_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B2B3711D118C9700989D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B2B3551D118C9700989D38 /* PopViewLikeQQView_Demo */;
+			targetProxy = 84B2B3701D118C9700989D38 /* PBXContainerItemProxy */;
+		};
+		84B2B37C1D118C9800989D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B2B3551D118C9700989D38 /* PopViewLikeQQView_Demo */;
+			targetProxy = 84B2B37B1D118C9800989D38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B2B3621D118C9700989D38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B2B3631D118C9700989D38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B2B3671D118C9700989D38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B2B3681D118C9700989D38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B2B3811D118C9800989D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B2B3821D118C9800989D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B2B3841D118C9800989D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopViewLikeQQView_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PopViewLikeQQView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84B2B3851D118C9800989D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopViewLikeQQView_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PopViewLikeQQView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84B2B3871D118C9800989D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopViewLikeQQView_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PopViewLikeQQView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopViewLikeQQView_Demo.app/PopViewLikeQQView_Demo";
+			};
+			name = Debug;
+		};
+		84B2B3881D118C9800989D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopViewLikeQQView_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PopViewLikeQQView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopViewLikeQQView_Demo.app/PopViewLikeQQView_Demo";
+			};
+			name = Release;
+		};
+		84B2B38A1D118C9800989D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopViewLikeQQView_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PopViewLikeQQView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopViewLikeQQView_Demo;
+			};
+			name = Debug;
+		};
+		84B2B38B1D118C9800989D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopViewLikeQQView_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.PopViewLikeQQView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopViewLikeQQView_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B2B3511D118C9700989D38 /* Build configuration list for PBXProject "PopViewLikeQQView_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2B3811D118C9800989D38 /* Debug */,
+				84B2B3821D118C9800989D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B2B3831D118C9800989D38 /* Build configuration list for PBXNativeTarget "PopViewLikeQQView_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2B3841D118C9800989D38 /* Debug */,
+				84B2B3851D118C9800989D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84B2B3861D118C9800989D38 /* Build configuration list for PBXNativeTarget "PopViewLikeQQView_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2B3871D118C9800989D38 /* Debug */,
+				84B2B3881D118C9800989D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84B2B3891D118C9800989D38 /* Build configuration list for PBXNativeTarget "PopViewLikeQQView_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2B38A1D118C9800989D38 /* Debug */,
+				84B2B38B1D118C9800989D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B2B34E1D118C9700989D38 /* Project object */;
+}
